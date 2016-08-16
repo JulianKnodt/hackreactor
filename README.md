@@ -59,7 +59,7 @@ The first time you run use the tool via `liberator`, you will be prompted for yo
 
 ### All At Once
 
-If you want to liberate _all_ of your eligible repositories (see below), run `liberator all`
+If you want to liberate _all_ of your eligible repositories (see below), run `liberate --hackreactor all`
 
 ### One By One
 
@@ -67,11 +67,11 @@ You can also liberate them one at a time (or a few at a time), by listing the re
 
 #### Single Repo
 
-`liberator 2014-04-databases`
+`liberate --hackreactor 2014-04-databases`
 
 #### Multiple Repos
 
-`liberator 2014-04-chatterbox-client 2014-04-chatterbox-server` will also work
+`liberate --hackreactor 2014-04-chatterbox-client 2014-04-chatterbox-server` will also work
 
 ### Eligble Repos
 
